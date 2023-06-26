@@ -6,32 +6,12 @@ import Link from "next/link";
 function App() {
   const slides = [
     {
-      url: "/temple.png",
-      title: "Temple website",
-      description: "Our village temple website, built with NextJs, framer motion etc.",
-      link: "https://shambhulingeshwara.vercel.app/",
+      url: "/prsn.jpg",
+      title: "Sanchar App",
+      description: "This is a UI design for an app known as Sanchar",
+      link: "https://manaswi-hegde.vercel.app/",
     },
-    {
-      url: "/games.png",
-      title: "Games website",
-      description: "3 games built with JS, HTML, CSS",
-      link: "https://github.com/AnanthChand/games"
-    },
-
-    {
-      url: "/port.png",
-      title: "Portfolio",
-      description: "This is a simple portfolio built using React and vite.",
-      link: "https://github.com/AnanthChand/Minimalistic-Portfolio"
-
-    },
-    {
-      url: "/sum-it.png",
-      title: "Sum-it",
-      description: "My personal blog site built with ReactJS, MongoDb, expressJS framer-motion etc.",
-      link: "https://github.com/AnanthChand/games"
-
-    },
+    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
