@@ -29,7 +29,7 @@ export default function Hero({}: Props) {
 
   return (
     <div
-      className="bg-contain bg-center"
+      className="bg-cover bg-right"
       style={{
         backgroundImage: "url('/mb.png')",
         backgroundSize: "cover",
@@ -70,7 +70,7 @@ export default function Hero({}: Props) {
             </Link>
             <Link href="#shelf">
               <button className="px-6 py-3 border border-transparent rounded-xl uppercase text-xs tracking-widest textwhite0 transition-all hover:border-[#000000] hover:text-[#f7ab0a]">
-              SculptureS
+              Sculptures
               </button>
             </Link>
             <Link href="#projects">

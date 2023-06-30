@@ -20,7 +20,7 @@ function About({}: Props) {
         transition={{ duration: 1.5 }}
         className="bg-contain bg-center"
         style={{
-          backgroundImage: "url('/bg3.png')",
+          backgroundImage: "url('/m.jpg')",
           backgroundSize: "cover",
           minHeight: "100vh",
           minWidth: "100vw",
@@ -33,20 +33,20 @@ function About({}: Props) {
           transition={{ duration: 1.2 }}
           className=" h-screen flex flex-col relative md:top-24  text-center md:text-left md:flex-row px-10 max-w-7xl justify-around mx-auto items-center"
         >
-          <h3 className=" absolute top-10  uppercase md:tracking-[20px] tracking-wide  text-gray-500 md:text-2xl text:sm md:top-[-50px]">
+          <h3 className=" absolute top-10  uppercase md:tracking-[20px] tracking-wide  text-gray-300 md:text-2xl text:sm md:top-[-50px]">
             About
           </h3>
           <motion.div
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 1 }}
             transition={{ duration: 1.2 }}
-            className="relative flex h-20 w-20 object-cover -mb-32  rounded-full flex-shrink-0  md:rounded-xl md:w-64 md:h-96 xl:h-[430px] xl:w-[300px] md:mb-20 md:ml-0"
+            className="relative flex h-36 w-36  -mb-36  rounded-full flex-shrink-0  md:rounded-xl md:w-[200px] md:h-[230px] xl:h-[230px] xl:w-[200px] md:mb-20 md:ml-0"
           >
             <Image
-              src="/m.jpg"
+              src="/bird.png"
               fill
               alt=""
-              className="object-cover rounded-lg hidden sm:block"
+              className="object-cover   sm:block"
             />
           </motion.div>
           <div className={arimo.className}>
@@ -54,7 +54,7 @@ function About({}: Props) {
               initial={{ x: 200, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 1.2 }}
-              className=" text-[20px] text-black md:text-[25px] space-y-1 mb-2 md:mb-20 mt-9 px-0 md:my-0 md:px-10"
+              className=" text-[20px] text-white md:text-[25px] space-y-1 mb-2 md:mb-20 mt-9 px-0 md:my-0 md:px-10"
             >
               Hello there! I am a passionate graphic designer and a sculptor with a love
               for creating visually stunning arts of various kinds. I am currently pursuing my
