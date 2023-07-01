@@ -6,9 +6,9 @@ import Link from "next/link";
 function App() {
   const slides = [
     {
-      url: "/prsn.jpg",
-      title: "Sanchar App",
-      description: "This is a UI design for an app known as Sanchar",
+      url: "/mpp.jpg",
+      title: "Ikea",
+      description: "This is a UI design for an app known as Ikea",
       link: "https://manaswi-hegde.vercel.app/",
     },
     
